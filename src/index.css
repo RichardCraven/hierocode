@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  
+  body {
+    background-color: #080511;
+    color: #f1f5f9;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Custom smooth scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080511;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2a1b4e;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #7e22ce;
+  }
+}
+
+/* Glowing utilities */
+.glow-purple {
+  filter: drop-shadow(0 0 12px rgba(168, 85, 247, 0.45));
+}
+
+.glow-cyan {
+  filter: drop-shadow(0 0 12px rgba(6, 182, 212, 0.45));
+}
+
+.glow-pink {
+  filter: drop-shadow(0 0 12px rgba(236, 72, 153, 0.45));
+}
+
+/* High tech glassmorphism */
+.glass-panel {
+  background: rgba(18, 12, 36, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(168, 85, 247, 0.18);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(26, 17, 50, 0.85);
+  border-color: rgba(168, 85, 247, 0.45);
+  box-shadow: 0 10px 30px -10px rgba(168, 85, 247, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Animated circuit line strokes */
+@keyframes dash {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.circuit-animated-line {
+  stroke-dasharray: 8 6;
+  animation: dash 2.5s linear infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+.pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}

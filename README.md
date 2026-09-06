@@ -1,4 +1,4 @@
-# CravenTech 2.0 — Personal & Professional Portfolio
+# hierocode — Personal & Professional Portfolio
 
 A modern, high-tech portfolio built in **React 18**, **TypeScript**, **Vite**, and **Tailwind CSS**. Designed for **Richard Craven** to showcase all personal and professional engineering projects, system architectures, and technical competencies.
 
@@ -7,7 +7,7 @@ A modern, high-tech portfolio built in **React 18**, **TypeScript**, **Vite**, a
 ## 🎨 Visual Design Inspiration
 
 - **Connecting Skill & Project Tree (Screenshot 1)**:
-  - Interactive SVG circuit cabling connecting the central root (`CravenTech 2.0 Core`) down to major engineering branches:
+  - Interactive SVG circuit cabling connecting the central root (`hierocode Core`) down to major engineering branches:
     - **Professional Systems** (Enterprise, FinTech, Multi-Region Cloud, Telemetry, IoT Fleet)
     - **Personal Labs & Open Source** (Autonomous Agent Runtimes, WebAudio Modular Synth, Rust Storage Engines, 3D Git Explorer)
     - **Technical Disciplines** (Distributed Systems, Cloud-Native Orchestration, Interactive UI/Graphics, Agent Systems)
@@ -102,7 +102,7 @@ CravenTech2.0/
 ```bash
 npm run dev
 ```
-Open your browser at `http://localhost:3001` (or the URL printed in the terminal).
+Open your browser at `http://localhost:3003` (or the URL printed in the terminal).
 
 ### 2. Build for Production
 ```bash

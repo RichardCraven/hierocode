@@ -14,11 +14,11 @@ export const Footer: React.FC = () => {
         <div className="flex items-center gap-3">
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center p-[1px]">
             <div className="w-full h-full bg-[#0b0717] rounded-[7px] flex items-center justify-center">
-              <span className="font-mono text-[10px] font-bold text-purple-400">&lt;CT/&gt;</span>
+              <span className="font-mono text-[10px] font-bold text-purple-400">&lt;HC/&gt;</span>
             </div>
           </div>
           <div>
-            <div className="font-bold text-white text-sm">Richard Craven &bull; CravenTech 2.0</div>
+            <div className="font-bold text-white text-sm">Richard Craven &bull; hierocode</div>
             <div className="text-[11px] text-slate-500 font-mono">Distributed Systems &bull; Cloud Infrastructure &bull; Web Engineering</div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-6 border-t border-purple-500/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left text-[11px] text-slate-500 font-mono">
         <div>
-          &copy; {new Date().getFullYear()} Richard Craven. All rights reserved. (CravenTech 2.0)
+          &copy; {new Date().getFullYear()} Richard Craven. All rights reserved. (hierocode)
         </div>
         <div className="flex items-center gap-1">
           <span>Designed with high-concurrency precision</span>

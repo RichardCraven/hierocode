@@ -28,7 +28,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
         <div className="flex justify-center md:justify-start mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-200 text-xs font-mono backdrop-blur-md shadow-glow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>CravenTech 2.0 &bull; Lead Engineer &amp; Systems Architect</span>
+            <span>hierocode &bull; Lead Engineer &amp; Systems Architect</span>
           </div>
         </div>
 

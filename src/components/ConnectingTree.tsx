@@ -148,17 +148,17 @@ export const ConnectingTree: React.FC<ConnectingTreeProps> = ({ onSelectProject 
         {/* The Visual Skill Tree Canvas */}
         <div className="relative rounded-3xl bg-[#0d091e]/90 border border-purple-500/25 p-6 sm:p-10 shadow-card-elevated backdrop-blur-2xl">
           
-          {/* Top Root Node: CravenTech Core */}
+          {/* Top Root Node: hierocode Core */}
           <div className="flex flex-col items-center relative z-20">
             <div className="relative group cursor-pointer">
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-purple-600 via-fuchsia-600 to-pink-600 blur opacity-60 group-hover:opacity-100 transition duration-300" />
               <div className="relative px-6 py-3.5 rounded-xl bg-[#130d2a] border border-purple-400/40 flex items-center gap-3">
                 <div className="w-8 h-8 rounded-lg bg-purple-600/30 border border-purple-400/40 flex items-center justify-center font-mono font-bold text-xs text-purple-300">
-                  CT
+                  HC
                 </div>
                 <div>
                   <div className="text-xs font-mono uppercase tracking-widest text-purple-400">ROOT ARCHITECTURE HUB</div>
-                  <div className="text-base font-bold text-white">Richard Craven &bull; CravenTech 2.0</div>
+                  <div className="text-base font-bold text-white">Richard Craven &bull; hierocode</div>
                 </div>
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
               </div>

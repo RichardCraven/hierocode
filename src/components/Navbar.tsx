@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectTree }) => {
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center p-[2px] shadow-glow-sm group-hover:shadow-glow transition-all">
             <div className="w-full h-full bg-[#0d091b] rounded-[10px] flex items-center justify-center">
               <span className="font-mono text-xs font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-                &lt;CT/&gt;
+                &lt;HC/&gt;
               </span>
             </div>
           </div>
@@ -48,10 +48,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onSelectTree }) => {
             <span className="font-bold text-base tracking-tight text-white group-hover:text-purple-300 transition-colors flex items-center gap-2">
               Richard Craven
               <span className="text-[10px] uppercase font-mono px-1.5 py-0.5 rounded bg-purple-500/20 border border-purple-500/30 text-purple-300">
-                v2.0
+                hierocode
               </span>
             </span>
-            <span className="text-[11px] text-slate-400 font-mono">CravenTech Architecture</span>
+            <span className="text-[11px] text-slate-400 font-mono">hierocode Architecture</span>
           </div>
         </a>
 

@@ -68,7 +68,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
 
               <span className="text-xs font-mono text-purple-400 flex items-center gap-1">
                 <Building2 className="w-3.5 h-3.5" />
-                {project.companyOrContext || 'CravenTech'}
+                {project.companyOrContext || 'hierocode'}
               </span>
             </div>
 

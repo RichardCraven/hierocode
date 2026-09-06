@@ -42,7 +42,7 @@ export const ContactSection: React.FC = () => {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('richard@craventech.dev');
+    navigator.clipboard.writeText('richard@hierocode.dev');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2500);
   };
@@ -98,7 +98,7 @@ export const ContactSection: React.FC = () => {
             <div className="p-4 rounded-2xl bg-white/[0.02] border border-purple-500/20 flex items-center justify-between">
               <div>
                 <div className="text-[10px] text-slate-400 font-mono">DIRECT TRANSMISSION</div>
-                <div className="text-sm font-bold text-white font-mono mt-0.5">richard@craventech.dev</div>
+                <div className="text-sm font-bold text-white font-mono mt-0.5">richard@hierocode.dev</div>
               </div>
 
               <button
@@ -161,7 +161,7 @@ export const ContactSection: React.FC = () => {
                   <div className="w-3 h-3 rounded-full bg-red-500/60" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
                   <div className="w-3 h-3 rounded-full bg-emerald-500/60" />
-                  <span className="text-xs font-mono text-slate-400 ml-2">craventech-transmission://secure</span>
+                  <span className="text-xs font-mono text-slate-400 ml-2">hierocode-transmission://secure</span>
                 </div>
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-500/20 text-purple-300">
                   AES-256 Mock Encrypted

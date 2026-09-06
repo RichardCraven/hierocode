@@ -102,7 +102,7 @@ CravenTech2.0/
 ```bash
 npm run dev
 ```
-Open your browser at `http://localhost:3000` (or the URL printed in the terminal).
+Open your browser at `http://localhost:3001` (or the URL printed in the terminal).
 
 ### 2. Build for Production
 ```bash

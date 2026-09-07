@@ -3,9 +3,9 @@ import React from 'react';
 export const BackgroundContour: React.FC = () => {
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
-      {/* Topographic Contour SVG Pattern (Screenshot 1 visual aesthetic) */}
+      {/* Topographic Contour SVG Pattern (Screenshot 1 visual aesthetic with Teal tint) */}
       <svg
-        className="absolute inset-0 w-full h-full opacity-[0.07] stroke-purple-400"
+        className="absolute inset-0 w-full h-full opacity-[0.08] stroke-teal-400"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1600 1200"
         fill="none"
@@ -20,20 +20,20 @@ export const BackgroundContour: React.FC = () => {
         
         {/* Subtle high-tech grid points */}
         <pattern id="dotGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-          <circle cx="2" cy="2" r="1" fill="rgba(168, 85, 247, 0.25)" />
+          <circle cx="2" cy="2" r="1" fill="rgba(20, 184, 166, 0.25)" />
         </pattern>
         <rect width="100%" height="100%" fill="url(#dotGrid)" />
       </svg>
 
-      {/* Deep Violet & Fuchsia Glowing Radial Mesh (Screenshot 2 exact color vibe) */}
-      <div className="absolute -top-40 left-1/4 w-[650px] h-[650px] bg-purple-600/15 rounded-full blur-[140px] pulse-glow" />
-      <div className="absolute top-1/3 -right-40 w-[600px] h-[600px] bg-fuchsia-600/15 rounded-full blur-[160px] pulse-glow" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-10 left-10 w-[700px] h-[700px] bg-purple-900/20 rounded-full blur-[180px]" />
-      <div className="absolute top-2/3 left-1/3 w-[500px] h-[500px] bg-cyan-600/10 rounded-full blur-[150px]" />
+      {/* Deep Teal, Cyan & Emerald Glowing Radial Mesh */}
+      <div className="absolute -top-40 left-1/4 w-[650px] h-[650px] bg-teal-600/15 rounded-full blur-[140px] pulse-glow" />
+      <div className="absolute top-1/3 -right-40 w-[600px] h-[600px] bg-cyan-600/15 rounded-full blur-[160px] pulse-glow" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-10 left-10 w-[700px] h-[700px] bg-teal-950/40 rounded-full blur-[180px]" />
+      <div className="absolute top-2/3 left-1/3 w-[500px] h-[500px] bg-emerald-600/12 rounded-full blur-[150px]" />
 
       {/* Subtle organic light lines */}
-      <div className="absolute top-20 left-0 right-0 h-px bg-gradient-to-r from-transparent via-purple-500/20 to-transparent" />
-      <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-fuchsia-500/15 to-transparent" />
+      <div className="absolute top-20 left-0 right-0 h-px bg-gradient-to-r from-transparent via-teal-500/20 to-transparent" />
+      <div className="absolute top-1/2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-cyan-500/15 to-transparent" />
     </div>
   );
 };

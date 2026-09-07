@@ -2,12 +2,8 @@ import React from 'react';
 import { 
   Briefcase, 
   Calendar, 
-  MapPin, 
   CheckCircle2, 
-  Sparkles, 
-  TrendingUp, 
-  ShieldCheck,
-  Cpu
+  Sparkles
 } from 'lucide-react';
 import { EXPERIENCES } from '../data/experience';
 
@@ -18,8 +14,8 @@ export const ExperienceTimeline: React.FC = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 font-mono text-xs mb-3">
-            <Sparkles className="w-3.5 h-3.5 text-purple-400" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-teal-900/30 border border-teal-500/30 text-teal-300 font-mono text-xs mb-3">
+            <Sparkles className="w-3.5 h-3.5 text-teal-400" />
             <span>CAREER TRAJECTORY &amp; IMPACT</span>
           </div>
 
@@ -32,11 +28,11 @@ export const ExperienceTimeline: React.FC = () => {
           </p>
         </div>
 
-        {/* Vertical Timeline with Connecting Circuit Trunk (Screenshot 1 & 2 synergy) */}
+        {/* Vertical Timeline with Connecting Circuit Trunk */}
         <div className="relative max-w-5xl mx-auto">
           
           {/* Vertical Connecting Circuit Line */}
-          <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 -translate-x-1/2 w-0.5 bg-gradient-to-b from-purple-500 via-fuchsia-500 to-pink-500 opacity-40" />
+          <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 -translate-x-1/2 w-0.5 bg-gradient-to-b from-teal-400 via-cyan-400 to-emerald-400 opacity-40" />
 
           <div className="space-y-12">
             {EXPERIENCES.map((exp, index) => {
@@ -50,8 +46,8 @@ export const ExperienceTimeline: React.FC = () => {
                   } gap-8`}
                 >
                   {/* Central Node Badge */}
-                  <div className="absolute left-4 sm:left-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-[#100a26] border-2 border-purple-400 flex items-center justify-center z-20 shadow-glow-sm">
-                    <div className="w-3 h-3 rounded-full bg-gradient-to-tr from-purple-400 to-pink-400 animate-pulse" />
+                  <div className="absolute left-4 sm:left-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-[#081820] border-2 border-teal-400 flex items-center justify-center z-20 shadow-glow-sm">
+                    <div className="w-3 h-3 rounded-full bg-gradient-to-tr from-teal-400 to-cyan-400 animate-pulse" />
                   </div>
 
                   {/* Spacer for opposite side on desktop */}
@@ -59,17 +55,17 @@ export const ExperienceTimeline: React.FC = () => {
 
                   {/* Content Card */}
                   <div className="w-full sm:w-1/2 pl-12 sm:pl-0">
-                    <div className={`p-6 sm:p-7 rounded-3xl bg-[#0e0922]/90 border border-purple-500/25 backdrop-blur-xl shadow-card-elevated hover:border-purple-400/50 transition-all duration-300 ${
+                    <div className={`p-6 sm:p-7 rounded-3xl bg-[#081822]/90 border border-teal-500/25 backdrop-blur-xl shadow-card-elevated hover:border-teal-400/50 transition-all duration-300 ${
                       isEven ? 'sm:mr-6' : 'sm:ml-6'
                     }`}>
                       {/* Meta information */}
                       <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                        <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-purple-900/40 text-purple-300 border border-purple-500/30">
+                        <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-teal-900/40 text-teal-300 border border-teal-500/30">
                           {exp.type}
                         </span>
 
                         <div className="flex items-center gap-1.5 text-xs font-mono text-slate-400">
-                          <Calendar className="w-3.5 h-3.5 text-purple-400" />
+                          <Calendar className="w-3.5 h-3.5 text-teal-400" />
                           <span>{exp.period}</span>
                         </div>
                       </div>
@@ -78,8 +74,8 @@ export const ExperienceTimeline: React.FC = () => {
                         {exp.role}
                       </h3>
 
-                      <div className="text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300 mt-0.5 flex items-center gap-1.5">
-                        <Briefcase className="w-3.5 h-3.5 text-purple-400" />
+                      <div className="text-sm font-semibold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-300 mt-0.5 flex items-center gap-1.5">
+                        <Briefcase className="w-3.5 h-3.5 text-teal-400" />
                         <span>{exp.company}</span>
                         <span className="text-slate-500">&bull;</span>
                         <span className="text-slate-400 font-normal text-xs">{exp.location}</span>
@@ -92,9 +88,9 @@ export const ExperienceTimeline: React.FC = () => {
                       {/* Key Impact Metrics */}
                       <div className="mt-4 grid grid-cols-2 gap-2">
                         {exp.metrics.map((m, idx) => (
-                          <div key={idx} className="p-2.5 rounded-xl bg-purple-950/30 border border-purple-500/15">
+                          <div key={idx} className="p-2.5 rounded-xl bg-teal-950/30 border border-teal-500/15">
                             <div className="text-[10px] text-slate-400 font-mono">{m.label}</div>
-                            <div className="text-sm font-bold text-purple-200 font-mono mt-0.5">{m.value}</div>
+                            <div className="text-sm font-bold text-teal-200 font-mono mt-0.5">{m.value}</div>
                           </div>
                         ))}
                       </div>
@@ -103,14 +99,14 @@ export const ExperienceTimeline: React.FC = () => {
                       <div className="mt-4 space-y-2">
                         {exp.achievements.map((ach, idx) => (
                           <div key={idx} className="flex items-start gap-2.5 text-xs text-slate-300">
-                            <CheckCircle2 className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
+                            <CheckCircle2 className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
                             <span>{ach}</span>
                           </div>
                         ))}
                       </div>
 
                       {/* Technologies tags */}
-                      <div className="mt-5 pt-3 border-t border-purple-500/15 flex flex-wrap gap-1.5">
+                      <div className="mt-5 pt-3 border-t border-teal-500/15 flex flex-wrap gap-1.5">
                         {exp.techTags.map((tag) => (
                           <span
                             key={tag}

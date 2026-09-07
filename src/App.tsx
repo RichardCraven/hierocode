@@ -41,7 +41,7 @@ export function App() {
   };
 
   return (
-    <div className="relative min-h-screen bg-[#080511] text-slate-100 overflow-x-hidden selection:bg-purple-600/30 selection:text-purple-200">
+    <div className="relative min-h-screen bg-[#050d12] text-slate-100 overflow-x-hidden selection:bg-teal-500/30 selection:text-teal-200">
       {/* Background Graphic & Ambient Glow Layers */}
       <BackgroundContour />
 

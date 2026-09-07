@@ -8,19 +8,20 @@ export default {
     extend: {
       colors: {
         craven: {
-          bg: '#080511',
-          bgAlt: '#0d091b',
-          surface: '#120c24',
-          card: '#16102c',
-          cardBorder: 'rgba(168, 85, 247, 0.22)',
-          accent: '#a855f7',
-          accentLight: '#c084fc',
-          accentDark: '#7e22ce',
-          pink: '#ec4899',
-          fuchsia: '#d946ef',
-          cyan: '#06b6d4',
+          bg: '#050d12',
+          bgAlt: '#08141b',
+          surface: '#0c1b24',
+          card: '#10222d',
+          cardBorder: 'rgba(20, 184, 166, 0.22)',
+          accent: '#14b8a6',
+          accentLight: '#2dd4bf',
+          accentDark: '#0f766e',
           teal: '#14b8a6',
-          neonMint: '#00f0b5',
+          cyan: '#06b6d4',
+          cyanLight: '#22d3ee',
+          mint: '#00f0b5',
+          emerald: '#10b981',
+          emeraldLight: '#34d399',
           textMuted: '#94a3b8',
           textDim: '#64748b'
         }
@@ -30,11 +31,11 @@ export default {
         mono: ['JetBrains Mono', 'Fira Code', 'monospace']
       },
       boxShadow: {
-        'glow-sm': '0 0 15px rgba(168, 85, 247, 0.25)',
-        'glow': '0 0 25px rgba(168, 85, 247, 0.35)',
-        'glow-lg': '0 0 40px rgba(168, 85, 247, 0.45)',
-        'glow-pink': '0 0 25px rgba(236, 72, 153, 0.35)',
+        'glow-sm': '0 0 15px rgba(20, 184, 166, 0.25)',
+        'glow': '0 0 25px rgba(20, 184, 166, 0.35)',
+        'glow-lg': '0 0 40px rgba(20, 184, 166, 0.45)',
         'glow-cyan': '0 0 25px rgba(6, 182, 212, 0.35)',
+        'glow-mint': '0 0 25px rgba(0, 240, 181, 0.35)',
         'card-elevated': '0 8px 32px 0 rgba(0, 0, 0, 0.37)'
       },
       animation: {

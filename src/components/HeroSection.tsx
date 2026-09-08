@@ -26,7 +26,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
         <div className="flex justify-center md:justify-start mb-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teal-900/30 border border-teal-500/30 text-teal-200 text-xs font-mono backdrop-blur-md shadow-glow-sm">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            <span>hierocode &bull; Lead Engineer &amp; Systems Architect</span>
+            <span>hierocode &bull; Senior Software Engineer | Frontend &amp; Full-Stack | Fintech</span>
           </div>
         </div>
 
@@ -35,20 +35,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
           
           {/* Left Hero Column: Headline & Intro */}
           <div className="lg:col-span-7 text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
-              Hello,
-              <br />
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light tracking-tight text-white leading-[1.12]">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-300 via-cyan-300 to-emerald-400">
-                I am Richard Craven
+                Richard Craven
               </span>
             </h1>
 
             <p className="mt-5 text-lg sm:text-xl text-slate-300 font-light max-w-2xl leading-relaxed">
-              Delivering efficient, scalable, and fault-tolerant solutions to transform complex technical visions into production reality.
+              Senior Software Engineer and UI Technical Lead with 10 years of software development experience, including extensive work on large-scale financial technology products for LPL Financial, Visa, and Citi.
             </p>
 
             <p className="mt-3 text-sm text-teal-200/80 max-w-xl font-mono leading-relaxed">
-              &gt; Specializing in distributed backend architectures, cloud-native orchestration (K8s/AWS), and high-performance interactive frontend systems.
+              &gt; Frontend specialist with full-stack depth across Angular, React, JavaScript, Node.js, state management, REST APIs, cloud infrastructure, and CI/CD.
             </p>
 
             {/* Quick CTAs */}
@@ -83,33 +81,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
             </div>
 
             {/* Metrics Ribbon */}
-            <div className="mt-12 pt-8 border-t border-teal-500/20 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6">
+            <div className="mt-12 pt-8 border-t border-teal-500/20 grid grid-cols-2 gap-4 sm:gap-6 max-w-sm mx-auto lg:mx-0">
               <div className="p-3 rounded-xl bg-teal-950/25 border border-teal-500/15 backdrop-blur-sm">
                 <div className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-cyan-300 font-mono">
-                  8+
+                  10+
                 </div>
                 <div className="text-xs text-slate-400 mt-1">Years Experience</div>
               </div>
 
               <div className="p-3 rounded-xl bg-teal-950/25 border border-teal-500/15 backdrop-blur-sm">
                 <div className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-emerald-300 font-mono">
-                  24+
+                  300k+
                 </div>
-                <div className="text-xs text-slate-400 mt-1">Shipped Projects</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-teal-950/25 border border-teal-500/15 backdrop-blur-sm">
-                <div className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 to-teal-300 font-mono">
-                  99.999%
-                </div>
-                <div className="text-xs text-slate-400 mt-1">Availability Mindset</div>
-              </div>
-
-              <div className="p-3 rounded-xl bg-teal-950/25 border border-teal-500/15 backdrop-blur-sm">
-                <div className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-cyan-200 font-mono">
-                  4.2B+
-                </div>
-                <div className="text-xs text-slate-400 mt-1">Daily Telemetry Spans</div>
+                <div className="text-xs text-slate-400 mt-1">Platform Users Led</div>
               </div>
             </div>
           </div>
@@ -200,7 +184,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
                       <span className="font-mono text-xs font-bold text-white tracking-wider">
                         RICHARD CRAVEN
                       </span>
-                      <div className="text-[10px] text-teal-300 font-mono">Lead IT Engineer</div>
+                      <div className="text-[10px] text-teal-300 font-mono">Senior Engineer &bull; UI Lead</div>
                     </div>
 
                     {/* Online status indicator */}
@@ -215,31 +199,31 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
                 <div className="mt-6 flex flex-col gap-2.5">
                   <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/[0.04] border border-teal-500/20">
                     <div className="flex items-center gap-2">
-                      <Server className="w-4 h-4 text-teal-400" />
-                      <span className="text-xs text-slate-300 font-medium">Distributed Systems</span>
+                      <Layers className="w-4 h-4 text-teal-400" />
+                      <span className="text-xs text-slate-300 font-medium">Fintech &amp; Frontend</span>
                     </div>
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-teal-500/20 text-teal-300 border border-teal-500/30">
-                      Go &bull; Rust &bull; K8s
+                      Angular &bull; NgRx &bull; React
                     </span>
                   </div>
 
                   <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/[0.04] border border-cyan-500/20">
                     <div className="flex items-center gap-2">
-                      <Layers className="w-4 h-4 text-cyan-400" />
-                      <span className="text-xs text-slate-300 font-medium">Modern Full-Stack</span>
+                      <Server className="w-4 h-4 text-cyan-400" />
+                      <span className="text-xs text-slate-300 font-medium">Full-Stack &amp; Real-Time</span>
                     </div>
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
-                      React &bull; Node &bull; TS
+                      Node &bull; Sockets &bull; REST
                     </span>
                   </div>
 
                   <div className="flex items-center justify-between p-2.5 rounded-xl bg-white/[0.04] border border-emerald-500/20">
                     <div className="flex items-center gap-2">
                       <Cpu className="w-4 h-4 text-emerald-400" />
-                      <span className="text-xs text-slate-300 font-medium">AI &amp; Agent Runtimes</span>
+                      <span className="text-xs text-slate-300 font-medium">Cloud &amp; DevOps</span>
                     </div>
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-                      WASM &bull; Vector DB
+                      AWS &bull; Docker &bull; Jenkins
                     </span>
                   </div>
                 </div>
@@ -247,7 +231,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
                 {/* Social Network Node Connectors */}
                 <div className="mt-5 pt-4 border-t border-teal-500/20 flex items-center justify-center gap-3">
                   <a
-                    href="https://github.com/richardcraven"
+                    href="https://github.com/RichardCraven"
                     target="_blank"
                     rel="noreferrer"
                     className="p-2.5 rounded-xl bg-teal-950/40 border border-teal-500/30 text-teal-300 hover:text-white hover:bg-teal-600/30 hover:shadow-glow-sm transition-all"

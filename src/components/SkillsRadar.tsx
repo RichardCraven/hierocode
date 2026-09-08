@@ -12,10 +12,10 @@ export const SkillsRadar: React.FC<SkillsRadarProps> = ({ onSelectProjectById })
   const [selectedSkill, setSelectedSkill] = useState<Skill>(SKILLS[0]);
 
   const categories = [
-    { id: 'languages', label: 'Languages & Core' },
-    { id: 'frontend', label: 'Frontend & UI Systems' },
-    { id: 'backend', label: 'Backend & Data Mesh' },
-    { id: 'cloud-infra', label: 'Cloud & Kubernetes' },
+    { id: 'frontend', label: 'Frontend & State Management' },
+    { id: 'backend', label: 'Backend & Data Services' },
+    { id: 'cloud-infra', label: 'Cloud & CI/CD Pipelines' },
+    { id: 'leadership', label: 'Architecture & Leadership' },
   ];
 
   // Find projects that use the selected skill
@@ -42,7 +42,7 @@ export const SkillsRadar: React.FC<SkillsRadarProps> = ({ onSelectProjectById })
           </h2>
 
           <p className="mt-3 text-slate-300 max-w-2xl text-sm sm:text-base">
-            Engineered with deep focus on concurrency, memory-safety, cloud-native scalability, and tactile reactive user interfaces.
+            Deep frontend expertise across Angular, React, state management, high-volume market data, and full-stack cloud architecture.
           </p>
         </div>
 

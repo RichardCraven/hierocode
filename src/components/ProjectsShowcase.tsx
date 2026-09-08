@@ -48,10 +48,10 @@ export const ProjectsShowcase: React.FC<ProjectsShowcaseProps> = ({ onSelectProj
 
   const domainOptions: { id: ProjectDomain; label: string }[] = [
     { id: 'all', label: 'All Domains' },
-    { id: 'distributed-systems', label: 'Distributed Systems' },
-    { id: 'cloud-devops', label: 'Cloud & DevOps' },
-    { id: 'ai-ml', label: 'AI & Agents' },
-    { id: 'fullstack-web', label: 'Full-Stack Web' },
+    { id: 'fintech', label: 'Fintech & Brokerage' },
+    { id: 'ai-ml', label: 'AI & Computer Vision' },
+    { id: 'fullstack-web', label: 'Full-Stack & Cloud' },
+    { id: 'gaming-graphics', label: 'Gaming & WebGL' },
     { id: 'developer-tools', label: 'Developer Tools' },
   ];
 
@@ -70,7 +70,7 @@ export const ProjectsShowcase: React.FC<ProjectsShowcaseProps> = ({ onSelectProj
               Personal &amp; Professional Projects
             </h2>
             <p className="mt-2 text-slate-400 text-sm sm:text-base max-w-2xl">
-              A reference catalog of distributed engines, cloud infrastructure, AI orchestration runtimes, and client-facing web applications.
+              A reference catalog of enterprise brokerage platforms, fintech marketplaces, computer vision systems, and interactive web applications.
             </p>
           </div>
 

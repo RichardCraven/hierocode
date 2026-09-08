@@ -41,7 +41,7 @@ export const ContactSection: React.FC = () => {
   };
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('richard@hierocode.dev');
+    navigator.clipboard.writeText('richard.craven85@gmail.com');
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2500);
   };
@@ -67,7 +67,7 @@ export const ContactSection: React.FC = () => {
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Whether you are architecting a high-throughput distributed system, scaling a multi-cluster Kubernetes platform, or seeking technical leadership — my inbox is open.
+              Whether you are architecting a large-scale fintech application, modernizing complex enterprise UI, or seeking frontend technical leadership — my inbox is open.
             </p>
 
             {/* Availability Status Card */}
@@ -79,16 +79,16 @@ export const ContactSection: React.FC = () => {
                 </span>
               </div>
               <p className="text-xs text-slate-300 mt-2">
-                Currently open for Principal / Lead Engineering roles, executive architectural consulting, and high-impact advisory contracts.
+                Open for Senior / Lead Frontend &amp; Full-Stack engineering roles, UI architecture leadership, and high-impact fintech contracts.
               </p>
-              <div className="mt-3 flex items-center gap-4 text-xs font-mono text-teal-300">
+              <div className="mt-3 flex flex-wrap items-center gap-4 text-xs font-mono text-teal-300">
                 <span className="flex items-center gap-1">
                   <MapPin className="w-3.5 h-3.5 text-teal-400" />
-                  San Francisco, CA / Remote
+                  Oakland, CA / Remote
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-3.5 h-3.5 text-teal-400" />
-                  PST / UTC-8
+                  (650) 799-4285
                 </span>
               </div>
             </div>
@@ -97,7 +97,7 @@ export const ContactSection: React.FC = () => {
             <div className="p-4 rounded-2xl bg-white/[0.02] border border-teal-500/20 flex items-center justify-between">
               <div>
                 <div className="text-[10px] text-slate-400 font-mono">DIRECT TRANSMISSION</div>
-                <div className="text-sm font-bold text-white font-mono mt-0.5">richard@hierocode.dev</div>
+                <div className="text-sm font-bold text-white font-mono mt-0.5">richard.craven85@gmail.com</div>
               </div>
 
               <button
@@ -121,7 +121,7 @@ export const ContactSection: React.FC = () => {
             {/* Social & Resume Links */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://github.com/richardcraven"
+                href="https://github.com/RichardCraven"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] text-slate-300 hover:text-white border border-teal-500/20 flex items-center gap-2 text-xs font-semibold transition-all"

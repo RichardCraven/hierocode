@@ -3,7 +3,8 @@ import {
   Briefcase, 
   Calendar, 
   CheckCircle2, 
-  Sparkles
+  Sparkles,
+  GraduationCap
 } from 'lucide-react';
 import { EXPERIENCES } from '../data/experience';
 

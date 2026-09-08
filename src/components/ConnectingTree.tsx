@@ -21,7 +21,7 @@ type BranchFilter = 'all' | 'professional' | 'personal' | 'disciplines';
 export const ConnectingTree: React.FC<ConnectingTreeProps> = ({ onSelectProject }) => {
   const [activeFilter, setActiveFilter] = useState<BranchFilter>('all');
   const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
-  const [selectedNodeId, setSelectedNodeId] = useState<string>('proj-fintech-gateway');
+  const [selectedNodeId, setSelectedNodeId] = useState<string>('proj-lpl-brokerage');
 
   // Selected project for quick preview
   const activeProject = PROJECTS.find(p => p.id === selectedNodeId) || PROJECTS[0];
@@ -31,36 +31,36 @@ export const ConnectingTree: React.FC<ConnectingTreeProps> = ({ onSelectProject 
 
   const disciplines = [
     {
-      id: 'disc-distributed',
-      name: 'Distributed Systems & Real-Time',
-      desc: 'High-throughput concurrency, Raft consensus, zero-copy buffers',
-      tech: ['Go', 'Rust', 'Kafka', 'Redis', 'gRPC'],
+      id: 'disc-frontend',
+      name: 'Frontend Architecture & State',
+      desc: 'Large-scale Angular/NgRx, React/Redux, design systems, and UX modernization',
+      tech: ['Angular', 'NgRx', 'React', 'Redux', 'TypeScript', 'SASS'],
       color: '#14b8a6',
-      projectsCount: 4
+      projectsCount: 6
     },
     {
-      id: 'disc-cloud',
-      name: 'Cloud-Native & Orchestration',
-      desc: 'Multi-region Kubernetes, zero-downtime canary, Terraform IaC',
-      tech: ['Kubernetes', 'AWS', 'Terraform', 'Docker', 'Istio'],
+      id: 'disc-fintech',
+      name: 'Fintech Platforms & Market Data',
+      desc: 'Brokerage platforms, live trading data, transaction flows, and enterprise UX',
+      tech: ['LPL Financial', 'Visa', 'Citi', 'WebSockets', 'REST APIs'],
       color: '#06b6d4',
       projectsCount: 4
     },
     {
-      id: 'disc-frontend',
-      name: 'Modern UI & WebGL Graphics',
-      desc: 'High-framerate rendering, WebAudio DSP, design system architecture',
-      tech: ['React 18', 'TypeScript', 'Tailwind', 'Three.js', 'Canvas'],
+      id: 'disc-backend',
+      name: 'Backend & Data Services',
+      desc: 'Node.js services, SQL data layers, Java/Spring & .NET debugging',
+      tech: ['Node.js', 'PostgreSQL', 'MySQL', 'Java/Spring', 'REST'],
       color: '#10b981',
       projectsCount: 5
     },
     {
-      id: 'disc-ai',
-      name: 'Autonomous Agents & WASM',
-      desc: 'Local-first LLM orchestration, vector retrieval, sandbox execution',
-      tech: ['TypeScript', 'Python', 'WASM', 'Vector DB', 'OpenAPI'],
+      id: 'disc-cloud',
+      name: 'Cloud, DevOps & Tooling',
+      desc: 'AWS infrastructure, Docker containers, Jenkins pipelines, OpenAPI specs',
+      tech: ['AWS', 'Docker', 'Jenkins', 'CI/CD', 'Swagger'],
       color: '#00f0b5',
-      projectsCount: 2
+      projectsCount: 4
     }
   ];
 

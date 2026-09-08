@@ -1,5 +1,5 @@
 export type ProjectCategory = 'all' | 'professional' | 'personal';
-export type ProjectDomain = 'all' | 'distributed-systems' | 'cloud-devops' | 'ai-ml' | 'fullstack-web' | 'developer-tools';
+export type ProjectDomain = 'all' | 'fintech' | 'ai-ml' | 'fullstack-web' | 'gaming-graphics' | 'developer-tools';
 
 export interface ProjectMetric {
   label: string;
@@ -11,7 +11,7 @@ export interface Project {
   title: string;
   subtitle: string;
   category: 'professional' | 'personal';
-  domain: 'distributed-systems' | 'cloud-devops' | 'ai-ml' | 'fullstack-web' | 'developer-tools';
+  domain: 'fintech' | 'ai-ml' | 'fullstack-web' | 'gaming-graphics' | 'developer-tools';
   year: string;
   role: string;
   companyOrContext?: string;
@@ -31,7 +31,7 @@ export interface Project {
 export interface Skill {
   id: string;
   name: string;
-  category: 'languages' | 'frontend' | 'backend' | 'cloud-infra' | 'data-ai' | 'tooling';
+  category: 'frontend' | 'backend' | 'cloud-infra' | 'leadership';
   proficiency: number; // 0 to 100
   yearsExp: number;
   iconName: string;

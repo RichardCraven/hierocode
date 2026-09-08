@@ -2,89 +2,177 @@ import { ExperienceItem } from '../types/portfolio';
 
 export const EXPERIENCES: ExperienceItem[] = [
   {
-    id: 'exp-techsolvers',
-    role: 'UI/UX Design & Lead IT Systems Engineer',
-    company: 'TechSolvers Global',
-    period: 'July 2024 — Present',
-    location: 'San Francisco, CA / Hybrid',
+    id: 'exp-lpl-financial',
+    role: 'Senior UI Developer / UI Technical Lead',
+    company: 'LPL Financial',
+    period: 'September 2020 — Present',
+    location: 'Oakland, CA / Hybrid',
     type: 'Leadership',
-    summary: 'Lead architect steering cross-functional engineering initiatives across distributed infrastructure, real-time telemetry systems, and frontend developer tooling.',
+    summary: 'Serve as UI Technical Lead for a global investment and brokerage platform supporting 1M+ daily active users, driving frontend technical architecture across multiple squads.',
     achievements: [
-      'Improved network efficiency and data throughput by 30% through zero-copy caching and optimized ingress architecture.',
-      'Led a high-velocity squad of 15 engineers delivering enterprise-grade cybersecurity and multi-region Kubernetes integrations.',
-      'Spearheaded modern design system migration reducing UI component duplication and engineering turnaround by 45%.',
-      'Engineered an automated failover system guaranteeing 99.999% uptime during high-volume quarterly financial audits.'
+      'Serve as UI Technical Lead for a global investment platform supporting 1M+ daily active users.',
+      'Provide frontend technical leadership across multiple teams building and modernizing features for a large-scale brokerage platform.',
+      'Lead Angular frontend development and state-management architecture with a focus on performance, scalability, maintainability, and user experience.',
+      'Helped drive a comprehensive redesign and UX modernization of existing platform pages and modules.',
+      'Architect reusable frontend functionality for complex financial workflows and data-intensive user experiences.',
+      'Integrate third-party platforms supporting positions trading, live market data, metrics, and interactive tutorials.',
+      'Collaborate across product, UX, backend, and engineering teams to translate requirements into production-ready solutions.'
     ],
-    techTags: ['Kubernetes', 'Go', 'React', 'TypeScript', 'Cybersecurity', 'AWS EKS', 'Zero-Trust'],
+    techTags: ['Angular', 'NgRx', 'TypeScript', 'JavaScript', 'REST APIs', 'SASS', 'Fintech', 'CI/CD'],
     metrics: [
-      { label: 'Network Efficiency', value: '+30%' },
-      { label: 'Team Size Led', value: '15 Engineers' },
-      { label: 'Uptime SLA', value: '99.999%' },
-      { label: 'Cycle Velocity', value: '+45%' }
+      { label: 'Daily Active Users', value: '1M+' },
+      { label: 'Platform Scope', value: 'Multi-Team Lead' },
+      { label: 'Core Architecture', value: 'Angular & NgRx' },
+      { label: 'Domain', value: 'Fintech Brokerage' }
     ]
   },
   {
-    id: 'exp-nexus',
-    role: 'Senior Staff Full-Stack Architect',
-    company: 'Nexus Innovations',
-    period: 'Jan 2022 — June 2024',
-    location: 'Austin, TX / Remote',
-    type: 'Full-time',
-    summary: 'Architected high-throughput cloud middleware and interactive operational dashboards for telemetry analysis and distributed microservices.',
+    id: 'exp-bardo-vision',
+    role: 'Head of Development',
+    company: 'Bardo Vision',
+    period: 'May 2020 — February 2024',
+    location: 'San Francisco, CA / Remote',
+    type: 'Leadership',
+    summary: 'Led technical development of a computer vision platform designed to accelerate machine-learning model development, automated visual data tagging, and testing.',
     achievements: [
-      'Built a real-time event pipeline ingesting 4.2 billion daily spans with sub-second query latency using ClickHouse and Go.',
-      'Designed and deployed responsive React/TypeScript interfaces with real-time WebSocket streaming for 500+ DevOps engineers.',
-      'Standardized CI/CD GitHub Action pipelines across 40+ repositories, reducing average build times from 28m down to 4m.',
-      'Mentored 8 mid-level and junior engineers through technical design reviews, RFCs, and pair-programming sessions.'
+      'Led development of a computer vision platform designed to accelerate machine-learning model development and testing.',
+      'Built the frontend with React and Redux and backend functionality with Node.js and MySQL.',
+      'Developed workflows leveraging AI to automatically tag data and commit changes to a blockchain-based system.',
+      'Owned development across frontend architecture, backend services, data flow, and product implementation.'
     ],
-    techTags: ['TypeScript', 'React', 'Rust', 'Kafka', 'ClickHouse', 'Docker', 'GraphQL'],
+    techTags: ['React', 'Redux', 'Node.js', 'MySQL', 'Computer Vision', 'AI/ML', 'Blockchain', 'JavaScript'],
     metrics: [
-      { label: 'Daily Events', value: '4.2B spans' },
-      { label: 'Build Times', value: '-85% speed' },
-      { label: 'System Latency', value: '< 180ms' },
-      { label: 'Engineers Mentored', value: '8 Devs' }
+      { label: 'Core Platform', value: 'Computer Vision' },
+      { label: 'Frontend Stack', value: 'React & Redux' },
+      { label: 'Backend Stack', value: 'Node.js & MySQL' },
+      { label: 'Workflow', value: 'AI Auto-Tagging' }
     ]
   },
   {
-    id: 'exp-cyberscale',
-    role: 'Systems & Cloud Infrastructure Engineer',
-    company: 'CyberScale Solutions',
-    period: 'March 2020 — Dec 2021',
-    location: 'Denver, CO',
-    type: 'Full-time',
-    summary: 'Focused on cloud security, container orchestration, and zero-trust identity authentication infrastructure.',
+    id: 'exp-visa',
+    role: 'UI/UX Developer (Contract)',
+    company: 'Visa',
+    period: 'April 2019 — June 2020',
+    location: 'Foster City, CA',
+    type: 'Contract',
+    summary: 'Developed a digital marketplace for financial applications serving an international user base of more than 6,000 institutional users, partnering with Java/Spring backend teams.',
     achievements: [
-      'Engineered FIDO2 WebAuthn authentication gateway protecting 320,000 corporate identities with zero credential phishing incidents.',
-      'Migrated legacy monolithic applications to containerized microservices running on AWS EKS using Terraform IaC.',
-      'Reduced enterprise AWS monthly infrastructure spend by $140,000 through automated pod right-sizing and spot-instance pooling.',
-      'Authored comprehensive disaster recovery playbooks with simulated chaos engineering exercises.'
+      'Developed a digital marketplace for financial applications serving an international user base of more than 6,000 users.',
+      'Built Angular and AngularJS frontend features and partnered with Java/Spring backend teams to implement REST APIs.',
+      'Modernized legacy applications and delivered file-upload, virus-scanning, notification, and search functionality.',
+      'Managed Jenkins staging builds and troubleshot deployment and integration issues in a continuous-integration environment.',
+      'Authored Swagger API documentation and onboarding documentation for new engineering hires.'
     ],
-    techTags: ['Python', 'FastAPI', 'AWS', 'Terraform', 'PostgreSQL', 'Redis', 'Docker'],
+    techTags: ['Angular', 'AngularJS', 'JavaScript', 'Java/Spring', 'REST APIs', 'Jenkins', 'Swagger', 'CI/CD'],
     metrics: [
-      { label: 'Annual Savings', value: '$140k / yr' },
-      { label: 'Users Protected', value: '320,000' },
-      { label: 'Auth Latency', value: '< 200ms' },
-      { label: 'Phishing Incidents', value: '0 Breaches' }
+      { label: 'International Users', value: '6,000+ Users' },
+      { label: 'Frontend', value: 'Angular / AngularJS' },
+      { label: 'Backend Integration', value: 'Java / Spring REST' },
+      { label: 'DevOps Pipeline', value: 'Jenkins CI' }
     ]
   },
   {
-    id: 'exp-apex',
-    role: 'Software Developer & Frontend Specialist',
-    company: 'Apex Digital Dynamics',
-    period: 'June 2018 — Feb 2020',
-    location: 'Seattle, WA',
-    type: 'Full-time',
-    summary: 'Built responsive single-page applications, interactive data visualizations, and client-facing web portals.',
+    id: 'exp-citi',
+    role: 'Front End Developer (Contract)',
+    company: 'Citi',
+    period: 'October 2018 — April 2019',
+    location: 'San Francisco, CA',
+    type: 'Contract',
+    summary: 'Developed an investment funds application using Angular in an Agile engineering environment, engineering data-rich financial interfaces and real-time visualizations using D3.js.',
     achievements: [
-      'Developed high-performance client web applications with React, Redux, and modern CSS for Fortune 500 clients.',
-      'Optimized Core Web Vitals across critical marketing and dashboard flows, raising Google Lighthouse scores from 64 to 98.',
-      'Implemented real-time data visualizers using SVG and HTML5 Canvas for live operational metrics.'
+      'Developed an investment funds application using Angular in an Agile engineering environment.',
+      'Built data-rich financial interfaces and real-time visualizations using D3.js.',
+      'Integrated frontend functionality with internal microservices, security layers, and external services.',
+      'Managed daily Jenkins builds, troubleshot integration issues, and contributed to rapid proof-of-concept development.'
     ],
-    techTags: ['React', 'JavaScript', 'Node.js', 'HTML5/CSS3', 'REST APIs', 'Webpack'],
+    techTags: ['Angular', 'TypeScript', 'D3.js', 'Microservices', 'Jenkins', 'Agile', 'Fintech', 'SASS'],
     metrics: [
-      { label: 'Lighthouse Score', value: '98 / 100' },
-      { label: 'Client Apps Built', value: '12 Apps' },
-      { label: 'User Retention', value: '+28%' }
+      { label: 'Domain', value: 'Investment Funds' },
+      { label: 'Visualizations', value: 'D3.js Real-Time' },
+      { label: 'Architecture', value: 'Internal Microservices' },
+      { label: 'Engineering', value: 'Agile & Jenkins' }
+    ]
+  },
+  {
+    id: 'exp-pure-mana',
+    role: 'Software Developer / Team Manager',
+    company: 'Pure Mana Studios',
+    period: 'August 2016 — July 2018',
+    location: 'San Francisco Bay Area, CA',
+    type: 'Full-time',
+    summary: 'Developed frontend and backend features for a multiplayer browser-based space combat game with a custom WebGL game engine, while managing developers and graphic artists.',
+    achievements: [
+      'Developed frontend and backend features for a multiplayer browser-based space combat game, including a custom game engine built with WebGL, Node.js, and socket.io.',
+      'Built scalable services for real-time synchronization and particle management and developed interactive features with HTML5 Canvas.',
+      'Managed a small team of developers and graphic artists and coordinated delivery of product and content features for an active user community.'
+    ],
+    techTags: ['WebGL', 'HTML5 Canvas', 'Node.js', 'Socket.io', 'JavaScript', 'Game Dev', 'Real-Time Sync'],
+    metrics: [
+      { label: 'Game Engine', value: 'Custom WebGL' },
+      { label: 'Real-Time Sync', value: 'Socket.io & Node' },
+      { label: 'Graphics', value: 'HTML5 Canvas' },
+      { label: 'Leadership', value: 'Devs & Artists' }
+    ]
+  },
+  {
+    id: 'exp-redcliffe',
+    role: 'IT Consultant',
+    company: 'Redcliffe Financial',
+    period: 'January 2025 — January 2026',
+    location: 'Remote',
+    type: 'Contract',
+    summary: 'Built full scale CRM platform for an insurance brokerage using Angular 17 and TypeScript with Node and Express integrated with SpiceCRM.',
+    achievements: [
+      'Built full scale CRM platform for an insurance brokerage using Angular 17 and Typescript with Node and Express integrated with SpiceCRM.',
+      'Architected secure bidirectional data synchronization between custom client interfaces and SpiceCRM backend services.',
+      'Engineered automated client policy tracking, commission reconciliation, and interactive pipeline management.'
+    ],
+    techTags: ['Angular 17', 'TypeScript', 'Node.js', 'Express', 'SpiceCRM', 'REST APIs', 'Fintech'],
+    metrics: [
+      { label: 'Framework', value: 'Angular 17' },
+      { label: 'Backend', value: 'Node & Express' },
+      { label: 'Integration', value: 'SpiceCRM' },
+      { label: 'Domain', value: 'Insurance CRM' }
+    ]
+  },
+  {
+    id: 'exp-soho-squared',
+    role: 'UI Consultant',
+    company: 'Soho Squared',
+    period: 'August 2020 — June 2021',
+    location: 'Remote',
+    type: 'Contract',
+    summary: 'Developed Angular and Node.js features for a speech-processing platform, including transcripts, waveforms, metrics, charts, annotation tools, and document search.',
+    achievements: [
+      'Developed Angular and Node.js features for a speech-processing platform, including transcripts, waveforms, metrics, charts, annotation tools, and document search.',
+      'Built interactive audio waveform visualizers and word-level alignment annotation tools for researchers.'
+    ],
+    techTags: ['Angular', 'Node.js', 'Audio Waveforms', 'Charts', 'Annotation', 'JavaScript'],
+    metrics: [
+      { label: 'Platform', value: 'Speech NLP' },
+      { label: 'Audio Engine', value: 'Waveform Canvas' },
+      { label: 'Stack', value: 'Angular & Node' },
+      { label: 'Features', value: 'Annotation & Search' }
+    ]
+  },
+  {
+    id: 'exp-blooskai',
+    role: 'Front End Developer (Contract)',
+    company: 'Blooskai Corp.',
+    period: 'June 2019 — June 2020',
+    location: 'San Francisco, CA',
+    type: 'Contract',
+    summary: 'Built web and mobile applications for a computer vision startup using Angular, Cordova, Docker, AWS EC2, and S3, delivering stable applications on tight timelines.',
+    achievements: [
+      'Built web and mobile applications for a computer vision startup using Angular, Cordova, Docker, AWS EC2, and S3, delivering stable applications on tight timelines.',
+      'Packaged cross-platform mobile binaries using Cordova and orchestrated containerized staging instances on AWS.'
+    ],
+    techTags: ['Angular', 'Cordova', 'Docker', 'AWS EC2', 'AWS S3', 'Mobile', 'TypeScript'],
+    metrics: [
+      { label: 'Platforms', value: 'Web & Mobile' },
+      { label: 'Mobile Tech', value: 'Cordova & Angular' },
+      { label: 'Cloud Infra', value: 'AWS EC2 & S3' },
+      { label: 'Container', value: 'Docker' }
     ]
   }
 ];

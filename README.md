@@ -66,7 +66,7 @@ A modern, high-tech portfolio built in **React 18**, **TypeScript**, **Vite**, a
 ## 📦 Project Structure
 
 ```
-CravenTech2.0/
+hierocode/
 ├── index.html               # Main HTML entry with Inter & JetBrains Mono fonts
 ├── package.json             # Dependencies and build scripts
 ├── tailwind.config.js       # Custom CravenTech color palette and glow utilities
@@ -118,7 +118,7 @@ npm run preview
 
 ## ✏️ Customizing Content
 
-- **To update or add projects**: Edit [`src/data/projects.ts`](file:///Users/richardcraven/Documents/CravenTech2.0/src/data/projects.ts).
-- **To update skills**: Edit [`src/data/skills.ts`](file:///Users/richardcraven/Documents/CravenTech2.0/src/data/skills.ts).
-- **To update work experience**: Edit [`src/data/experience.ts`](file:///Users/richardcraven/Documents/CravenTech2.0/src/data/experience.ts).
-- **To change the color theme or accents**: Adjust `colors.craven` in [`tailwind.config.js`](file:///Users/richardcraven/Documents/CravenTech2.0/tailwind.config.js).
+- **To update or add projects**: Edit [`src/data/projects.ts`](file:///Users/richardcraven/Documents/MelkorFactoryProjects/hierocode/src/data/projects.ts).
+- **To update skills**: Edit [`src/data/skills.ts`](file:///Users/richardcraven/Documents/MelkorFactoryProjects/hierocode/src/data/skills.ts).
+- **To update work experience**: Edit [`src/data/experience.ts`](file:///Users/richardcraven/Documents/MelkorFactoryProjects/hierocode/src/data/experience.ts).
+- **To change the color theme or accents**: Adjust `colors.craven` in [`tailwind.config.js`](file:///Users/richardcraven/Documents/MelkorFactoryProjects/hierocode/tailwind.config.js).

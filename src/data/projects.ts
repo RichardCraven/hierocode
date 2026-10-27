@@ -81,7 +81,7 @@ export const PROJECTS: Project[] = [
       'Blockchain-based ledger integration for cryptographic dataset provenance and change auditing'
     ],
     metrics: [
-      { label: 'Role', value: 'Head of Development' },
+      { label: 'Role', value: 'Head of Dev' },
       { label: 'Frontend', value: 'React & Redux' },
       { label: 'Backend', value: 'Node.js & MySQL' },
       { label: 'AI Workflow', value: 'Auto-Tagging ML' }
@@ -298,8 +298,8 @@ export const PROJECTS: Project[] = [
       'High-performance React 18 frontend with tactile cyber aesthetic'
     ],
     metrics: [
-      { label: 'Daily Use', value: '100% Daily' },
-      { label: 'API Integrations', value: 'GitHub & Vercel' },
+      { label: 'Workflow', value: 'Daily Driver' },
+      { label: 'Integrations', value: 'GitHub & Vercel' },
       { label: 'Bundle Size', value: '42 kB gzip' },
       { label: 'Load Time', value: '< 80ms' }
     ],

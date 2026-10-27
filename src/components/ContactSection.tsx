@@ -17,7 +17,7 @@ export const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    projectScope: 'Architectural Leadership',
+    projectScope: '',
     message: ''
   });
   const [submitted, setSubmitted] = useState(false);
@@ -63,7 +63,7 @@ export const ContactSection: React.FC = () => {
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight">
-              Let's Build Something Extraordinary.
+              Let's Build Together.
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
@@ -131,7 +131,7 @@ export const ContactSection: React.FC = () => {
               </a>
 
               <a
-                href="https://linkedin.com/in/richardcraven"
+                href="https://www.linkedin.com/in/richard-craven-082a0816/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 rounded-xl bg-white/[0.04] hover:bg-white/[0.08] text-slate-300 hover:text-white border border-teal-500/20 flex items-center gap-2 text-xs font-semibold transition-all"
@@ -179,7 +179,7 @@ export const ContactSection: React.FC = () => {
                   <button
                     onClick={() => {
                       setSubmitted(false);
-                      setFormData({ name: '', email: '', projectScope: 'Architectural Leadership', message: '' });
+                      setFormData({ name: '', email: '', projectScope: '', message: '' });
                     }}
                     className="mt-4 px-6 py-2.5 rounded-xl bg-teal-600 hover:bg-teal-500 text-xs font-bold text-white transition-all shadow-glow-sm"
                   >
@@ -222,17 +222,13 @@ export const ContactSection: React.FC = () => {
                     <label className="block text-xs font-mono text-slate-300 mb-1.5">
                       Scope / Area of Interest
                     </label>
-                    <select
+                    <input
+                      type="text"
                       value={formData.projectScope}
                       onChange={(e) => setFormData({ ...formData, projectScope: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-[#0c222c] border border-teal-500/25 text-white text-xs focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400/50 transition-all font-mono"
-                    >
-                      <option value="Architectural Leadership">Lead / Staff Engineering Role</option>
-                      <option value="Consulting & Advisory">Cloud / Systems Architecture Consulting</option>
-                      <option value="Performance Optimization">Throughput &amp; Latency Optimization</option>
-                      <option value="AI & Autonomous Agents">Autonomous Agent / R&amp;D Project</option>
-                      <option value="General Inquiries">Other Exploration</option>
-                    </select>
+                      placeholder="e.g. Frontend Architecture, Fintech Modernization, Advisory..."
+                      className="w-full px-4 py-2.5 rounded-xl bg-[#0c222c] border border-teal-500/25 text-white placeholder-slate-500 text-xs focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400/50 transition-all font-mono"
+                    />
                   </div>
 
                   <div>
@@ -251,10 +247,10 @@ export const ContactSection: React.FC = () => {
 
                   <button
                     type="submit"
-                    className="w-full py-3 rounded-xl font-bold text-xs text-slate-950 bg-gradient-to-r from-teal-400 via-cyan-400 to-emerald-400 hover:opacity-95 shadow-glow hover:shadow-glow-lg transition-all flex items-center justify-center gap-2"
+                    className="w-full py-3 rounded-xl font-mono text-xs font-semibold text-slate-200 hover:text-white border border-teal-500/30 hover:border-teal-400 hover:bg-teal-500/10 transition-all flex items-center justify-center gap-2"
                   >
-                    <Send className="w-4 h-4 text-slate-950" />
-                    <span>Transmit Message to Richard</span>
+                    <Send className="w-4 h-4 text-teal-400" />
+                    <span>Transmit Message</span>
                   </button>
                 </form>
               )}

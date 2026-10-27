@@ -2,7 +2,7 @@ import React from 'react';
 
 export const BackgroundContour: React.FC = () => {
   return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
+    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden transform-gpu" aria-hidden="true">
       {/* Topographic Contour SVG Pattern (Screenshot 1 visual aesthetic with Teal tint) */}
       <svg
         className="absolute inset-0 w-full h-full opacity-[0.08] stroke-teal-400"
@@ -26,10 +26,10 @@ export const BackgroundContour: React.FC = () => {
       </svg>
 
       {/* Deep Teal, Cyan & Emerald Glowing Radial Mesh */}
-      <div className="absolute -top-40 left-1/4 w-[650px] h-[650px] bg-teal-600/15 rounded-full blur-[140px] pulse-glow" />
-      <div className="absolute top-1/3 -right-40 w-[600px] h-[600px] bg-cyan-600/15 rounded-full blur-[160px] pulse-glow" style={{ animationDelay: '2s' }} />
-      <div className="absolute bottom-10 left-10 w-[700px] h-[700px] bg-teal-950/40 rounded-full blur-[180px]" />
-      <div className="absolute top-2/3 left-1/3 w-[500px] h-[500px] bg-emerald-600/12 rounded-full blur-[150px]" />
+      <div className="absolute -top-40 left-1/4 w-[650px] h-[650px] bg-teal-600/15 rounded-full blur-[140px] pulse-glow transform-gpu" />
+      <div className="absolute top-1/3 -right-40 w-[600px] h-[600px] bg-cyan-600/15 rounded-full blur-[160px] pulse-glow transform-gpu" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-10 left-10 w-[700px] h-[700px] bg-teal-950/40 rounded-full blur-[180px] transform-gpu" />
+      <div className="absolute top-2/3 left-1/3 w-[500px] h-[500px] bg-emerald-600/12 rounded-full blur-[150px] transform-gpu" />
 
       {/* Subtle organic light lines */}
       <div className="absolute top-20 left-0 right-0 h-px bg-gradient-to-r from-transparent via-teal-500/20 to-transparent" />

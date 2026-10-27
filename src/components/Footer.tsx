@@ -19,7 +19,7 @@ export const Footer: React.FC = () => {
           </div>
           <div>
             <div className="font-bold text-white text-sm">Richard Craven &bull; hierocode</div>
-            <div className="text-[11px] text-slate-400 font-mono">Distributed Systems &bull; Cloud Infrastructure &bull; Web Engineering</div>
+            <div className="text-[11px] text-slate-400 font-mono">Frontend Architecture &bull; Full-Stack Systems &bull; Fintech</div>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
         {/* Back to top button */}
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/richardcraven"
+            href="https://github.com/RichardCraven"
             target="_blank"
             rel="noreferrer"
             className="p-2 rounded-lg bg-white/[0.04] hover:bg-white/[0.08] text-slate-400 hover:text-white transition-colors"
@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
             <Github className="w-4 h-4" />
           </a>
           <a
-            href="https://linkedin.com/in/richardcraven"
+            href="https://www.linkedin.com/in/richard-craven-082a0816/"
             target="_blank"
             rel="noreferrer"
             className="p-2 rounded-lg bg-white/[0.04] hover:bg-white/[0.08] text-slate-400 hover:text-white transition-colors"

@@ -91,9 +91,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
 
               <div className="p-3 rounded-xl bg-teal-950/25 border border-teal-500/15 backdrop-blur-sm">
                 <div className="text-2xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-emerald-300 font-mono">
-                  300k+
+                  1M+
                 </div>
-                <div className="text-xs text-slate-400 mt-1">Platform Users Led</div>
+                <div className="text-xs text-slate-400 mt-1">Users Supported</div>
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExploreTree, onExplo
                     <Github className="w-4 h-4" />
                   </a>
                   <a
-                    href="https://linkedin.com/in/richardcraven"
+                    href="https://www.linkedin.com/in/richard-craven-082a0816/"
                     target="_blank"
                     rel="noreferrer"
                     className="p-2.5 rounded-xl bg-teal-950/40 border border-teal-500/30 text-teal-300 hover:text-white hover:bg-teal-600/30 hover:shadow-glow-sm transition-all"

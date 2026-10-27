@@ -266,12 +266,12 @@ export const ConnectingTree: React.FC<ConnectingTreeProps> = ({ onSelectProject 
                         </div>
 
                         {/* Quick metric pill */}
-                        <div className="mt-2.5 pt-2 border-t border-teal-500/15 flex items-center justify-between">
-                          <span className="text-[11px] font-mono text-teal-300 font-medium">
-                            {proj.metrics[0].label}: {proj.metrics[0].value}
+                        <div className="mt-2.5 pt-2 border-t border-teal-500/15 flex items-center justify-between gap-2 overflow-hidden">
+                          <span className="text-[10px] font-mono text-teal-300 font-medium whitespace-nowrap shrink-0">
+                            <span className="text-slate-400">{proj.metrics[0].label}:</span> {proj.metrics[0].value}
                           </span>
-                          <span className="text-[10px] text-slate-400 font-mono">
-                            {proj.techStack.slice(0, 3).join(' • ')}
+                          <span className="text-[10px] text-slate-400 font-mono truncate text-right">
+                            {proj.techStack.slice(0, 2).join(' • ')}
                           </span>
                         </div>
                       </div>
@@ -349,12 +349,12 @@ export const ConnectingTree: React.FC<ConnectingTreeProps> = ({ onSelectProject 
                         </div>
 
                         {/* Quick metric pill */}
-                        <div className="mt-2.5 pt-2 border-t border-cyan-500/15 flex items-center justify-between">
-                          <span className="text-[11px] font-mono text-cyan-300 font-medium">
-                            {proj.metrics[0].label}: {proj.metrics[0].value}
+                        <div className="mt-2.5 pt-2 border-t border-cyan-500/15 flex items-center justify-between gap-2 overflow-hidden">
+                          <span className="text-[10px] font-mono text-cyan-300 font-medium whitespace-nowrap shrink-0">
+                            <span className="text-slate-400">{proj.metrics[0].label}:</span> {proj.metrics[0].value}
                           </span>
-                          <span className="text-[10px] text-slate-400 font-mono">
-                            {proj.techStack.slice(0, 3).join(' • ')}
+                          <span className="text-[10px] text-slate-400 font-mono truncate text-right">
+                            {proj.techStack.slice(0, 2).join(' • ')}
                           </span>
                         </div>
                       </div>

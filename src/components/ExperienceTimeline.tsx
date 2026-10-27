@@ -128,6 +128,49 @@ export const ExperienceTimeline: React.FC = () => {
 
         </div>
 
+        {/* Education & Training Section */}
+        <div className="mt-20 pt-12 border-t border-teal-500/20 max-w-5xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-teal-900/30 border border-teal-500/30 text-teal-300 font-mono text-xs mb-2">
+              <GraduationCap className="w-3.5 h-3.5 text-teal-400" />
+              <span>FOUNDATION &amp; ACCREDITATION</span>
+            </div>
+            <h3 className="text-2xl font-bold text-white tracking-tight">
+              Education &amp; Training
+            </h3>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="p-6 rounded-3xl bg-[#081822]/80 border border-teal-500/20 backdrop-blur-xl hover:border-teal-400/40 transition-all">
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-teal-900/40 text-teal-300 border border-teal-500/30">
+                  Full Stack Immersive
+                </span>
+                <span className="text-xs font-mono text-slate-400">2016</span>
+              </div>
+              <h4 className="text-lg font-bold text-white">Full Stack Immersive Program</h4>
+              <div className="text-sm font-semibold text-teal-300 mt-0.5">Galvanize</div>
+              <p className="text-xs text-slate-300 mt-2.5 leading-relaxed">
+                Six-month intensive software development program focused on full-stack JavaScript applications. Technologies included JavaScript, Angular, React/Redux, Node.js, and Python.
+              </p>
+            </div>
+
+            <div className="p-6 rounded-3xl bg-[#081822]/80 border border-teal-500/20 backdrop-blur-xl hover:border-teal-400/40 transition-all">
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded-full bg-cyan-900/40 text-cyan-300 border border-cyan-500/30">
+                  Bachelor of Arts
+                </span>
+                <span className="text-xs font-mono text-slate-400">2013</span>
+              </div>
+              <h4 className="text-lg font-bold text-white">Bachelor of Arts, English</h4>
+              <div className="text-sm font-semibold text-cyan-300 mt-0.5">San Francisco State University</div>
+              <p className="text-xs text-slate-300 mt-2.5 leading-relaxed">
+                Undergraduate degree emphasizing rigorous analytical reasoning, written synthesis, and cross-disciplinary communication.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

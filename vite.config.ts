@@ -12,5 +12,9 @@ export default defineConfig({
   preview: {
     port: 3003,
     host: true
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: false
   }
 })
